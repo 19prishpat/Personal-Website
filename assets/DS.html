@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Circuit Projects</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/Imagesss/pictab.png" type="image/png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <style>
+    /* Make project info always visible under images */
+    .portfolio-item {
+      position: relative;
+      overflow: visible;
+      text-align: center;
+    }
+
+    .portfolio-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item img:hover {
+      transform: scale(1.02);
+    }
+
+    /* Show info below image */
+    .portfolio-info {
+      position: static !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      background: #fff;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .portfolio-info h4 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 8px;
+    }
+
+    .portfolio-info p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-info .details-link {
+      display: inline-block;
+      color: #007bff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .portfolio-info .details-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Prisha</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html">Coding Projects</a></li>
+          <li><a href="DS.html" class="active">Circuit Projects</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="mailto:19prishpat@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a href="https://github.com/19prishpat" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/in/patelprish" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Circuit Projects</h2>
+        <p>Here are some of my circuit design and embedded systems projects!</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Example Project 1 -->
+          <!-- Example Project 1 -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+            <a href="sevsegment.html">
+            <img src="assets/img/Imagesss/sevsegment.png" class="img-fluid" alt="7 Segment LED Circuit">
+            </a>
+            <div class="portfolio-info">
+            <h4>7 Segment LED Circuit</h4>
+            <p>This project demonstrates how binary inputs can drive a 7-segment LED display using digital logic principles, simulated in Falstad to show segment control and output verification.</p>
+            <a href="sevsegment.html" class="details-link"></a>
+            </div>
+        </div>
+  
+
+          <!-- Example Project 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+            <a href="traffic.html" target="_blank">
+              <img src="assets/img/Imagesss/traffic.png" class="img-fluid" alt="Temperature Sensor">
+            </a>
+            <div class="portfolio-info">
+              <h4>Traffic Light Circuit</h4>
+              <p>This circuit simulates a traffic light control system built in Falstad using multiplexers and logic inputs to manage light sequencing based on control signals.</p>
+              <a href="https://github.com/19prishpat/Temperature-Sensor" target="_blank" class="details-link"></a>
+            </div>
+          </div>
+
+          <!-- Example Project 3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+            <a href="combo.html" target="_blank">
+              <img src="assets/img/Imagesss/combinational.png" class="img-fluid" alt="Servo Control System">
+            </a>
+            <div class="portfolio-info">
+              <h4>Combinational Circuit</h4>
+              <p>This project involves designing and simulating a 2-bit full adder and multiplexer-based circuit in Falstad to perform binary addition and control different output combinations using select lines, then implementing and testing it on a breadboard.</p>
+              <a href="https://github.com/19prishpat/Servo-Control-System" target="_blank" class="details-link"></a>
+            </div>
+          </div>
+
+          <!-- Example Project 3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+            <a href="https://github.com/19prishpat/Arduino-Stopwatch" target="_blank">
+              <img src="assets/img/Imagesss/stopwatch.png" class="img-fluid" alt="Servo Control System">
+            </a>
+            <div class="portfolio-info">
+              <h4>Arduino Stopwatch Project</h4>
+              <p>A stopwatch that measures the time between two button presses using Timer0 and the millis() function on the ATmega328P.</p>
+              <a href="https://github.com/19prishpat/Servo-Control-System" target="_blank" class="details-link"></a>
+            </div>
+          </div>
+
+          <!-- Add more DS projects below in the same structure -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="mailto:19prishpat@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a href="https://github.com/19prishpat" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/in/patelprish" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
