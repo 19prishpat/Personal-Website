@@ -1428,6 +1428,50 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+.project {
+  background-color: #d9e6f2; /* or your theme color */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 1.2rem;
+  color: #1f2a44;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #333;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  display: block; /* ensures always visible */
+}
+
+.project-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #1f2a44;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  background-color: #142036;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
